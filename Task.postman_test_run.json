@@ -1,0 +1,231 @@
+{
+	"id": "83564db1-9bc0-489c-8078-c689d658fc88",
+	"name": "Task",
+	"timestamp": "2024-09-20T18:43:31.860Z",
+	"collection_id": "38230344-78508e1f-0d41-41ac-a39c-f26ea5c6fa2b",
+	"folder_id": 0,
+	"environment_id": "38230344-7453b710-7dcb-4aaf-b23b-aa4689b2b394",
+	"totalPass": 14,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-20T18:43:30.504Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0e5ed19d-325a-4b2e-b19c-5ff5bbb6eaae",
+			"name": "Get All Users",
+			"url": "/Users",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"the body has been received in json format": true,
+				"the id is a number": true,
+				"each user object has the right properties": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"the body has been received in json format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"the id is a number": {
+					"pass": 1,
+					"fail": 0
+				},
+				"each user object has the right properties": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"the body has been received in json format": true,
+					"the id is a number": true,
+					"each user object has the right properties": true
+				}
+			]
+		},
+		{
+			"id": "152d606e-ac93-40bb-9fc7-4e51c0c31599",
+			"name": "Get one user {id}",
+			"url": "https://fakerestapi.azurewebsites.net/api/v1//Users/5",
+			"time": 94,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Response type is JSON": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response type is JSON": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Response type is JSON": true
+				}
+			]
+		},
+		{
+			"id": "ee72c654-f428-4823-a278-620b151baf9c",
+			"name": "Users",
+			"url": "https://fakerestapi.azurewebsites.net/api/v1/Users",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "b79f88f9-b7f4-4092-9d25-2581bac4667f",
+			"name": "Update",
+			"url": "https://fakerestapi.azurewebsites.net/api/v1//Users/5",
+			"time": 104,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				104
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "2e90e56f-ba08-40a9-b62d-a71671cbb79b",
+			"name": "Delete users",
+			"url": "https://fakerestapi.azurewebsites.net/api/v1//Users/3",
+			"time": 93,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 487,
+	"collection": {
+		"requests": [
+			{
+				"id": "0e5ed19d-325a-4b2e-b19c-5ff5bbb6eaae",
+				"method": "GET"
+			},
+			{
+				"id": "152d606e-ac93-40bb-9fc7-4e51c0c31599",
+				"method": "GET"
+			},
+			{
+				"id": "ee72c654-f428-4823-a278-620b151baf9c",
+				"method": "POST"
+			},
+			{
+				"id": "b79f88f9-b7f4-4092-9d25-2581bac4667f",
+				"method": "PUT"
+			},
+			{
+				"id": "2e90e56f-ba08-40a9-b62d-a71671cbb79b",
+				"method": "DELETE"
+			}
+		]
+	}
+}
